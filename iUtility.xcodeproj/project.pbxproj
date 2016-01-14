@@ -56,6 +56,7 @@
 		C716E3681C47895E005E63DD /* iUtility */ = {
 			isa = PBXGroup;
 			children = (
+				C716E37E1C4789B5005E63DD /* Utility */,
 				C716E3691C47895E005E63DD /* AppDelegate.swift */,
 				C716E36B1C47895E005E63DD /* ViewController.swift */,
 				C716E36D1C47895E005E63DD /* Main.storyboard */,
@@ -65,6 +66,45 @@
 				C716E3701C47895E005E63DD /* iUtility.xcdatamodeld */,
 			);
 			path = iUtility;
+			sourceTree = "<group>";
+		};
+		C716E37E1C4789B5005E63DD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C716E37F1C4789B5005E63DD /* Data */,
+				C716E3821C4789B5005E63DD /* UI */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C716E37F1C4789B5005E63DD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C716E3801C4789B5005E63DD /* Extension */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C716E3801C4789B5005E63DD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C716E3811C4789B5005E63DD /* CoreData */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C716E3811C4789B5005E63DD /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		C716E3821C4789B5005E63DD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
